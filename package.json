@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Basic_first_deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jalpan",
+  "license": "ISC",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^5.1.0"
+  }
+}
