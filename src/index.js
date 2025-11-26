@@ -19,3 +19,12 @@ dotenv.config({
 // })()
 
 CONNECT_DB()
+.then(()=>{
+    app.listen(process.env.PORT,()=>{
+        console.log(`Process is running at ${process.env.PORT}`);
+        
+    })
+})
+.catch((e)=>{
+    console.log("Error connecting");
+})
